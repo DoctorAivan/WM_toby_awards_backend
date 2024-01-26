@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  backend:
+    container_name: gc-backend
+    restart: always
+    image: gala-cracks-backend
+    ports:
+        - 80:80
+    volumes:
+      - ../:/app
