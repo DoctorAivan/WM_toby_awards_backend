@@ -16,11 +16,9 @@ class Command(BaseCommand):
         for category, player_list in players.items():
             category = PlayerCategory.objects.get(name=category)
             for player in player_list:
-                player_data = player.split(' - ')
 
                 Player.objects.get_or_create(
-                    name=player_data[0],
-                    team=player_data[1],
+                    name=player,
                     category=category
                 )
-                self.stdout.write(self.style.SUCCESS(f'Player {player_data[0]} loaded successfully'))
+                self.stdout.write(self.style.SUCCESS(f'Player {player} loaded successfully'))

@@ -10,6 +10,6 @@ class Command(BaseCommand):
         player = Player.objects.all().annotate(
             category_name=F('category__name')
         ).values(
-            "id", "name", "team", "category_name"
+            "id", "name", "category_name"
         )
         print(list(player))
