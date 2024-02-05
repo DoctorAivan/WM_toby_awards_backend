@@ -16,7 +16,6 @@ categories = [
 ]
 
 players = {
-
     "premio_peso_pluma": [
         'Darío Lezcano por Gustavo Quinteros',
         'Claudio Bravo por Eduardo Berizzo',
@@ -25,15 +24,15 @@ players = {
     ],
     "premio_fundaciones": [
         'Chile fuera como sede del Mundial 2030',
-        'Messi ganador The Best',
-        'Messi ganador balón de Oro',
+        'Messi ganador premio The Best',
+        'Messi ganador Balón de Oro',
         'Los robos del árbitro de TST'
     ],
     "premio_plr": [
         'Mauricio Isla en la UC',
         'Cristóbal Campos en la U',
         'Pablo Aránguiz en Ñublense',
-        'Falcón a Candia de Audax'
+        'Maxi Falcón a Jhonatan Candia'
     ],
     "premio_alexis_sanchez": [
         'Fabián Castillo al llegar a Colo Colo',
@@ -49,15 +48,15 @@ players = {
     ],
     "premio_barbie": [
         'Tiane Endler',
-        'Ryan Torrero',
-        'Cote Urrutia',
-        'Isidora Jimenez'
+        'Ryann Torrero',
+        'María José Urrutia',
+        'Isidora Jiménez'
     ],
     "premio_ken": [
-        'David Beckamn',
+        'David Beckham',
         'Cristiano Ronaldo',
-        'Rodrigo de De Paul',
-        'Cristián “El Tigre” Basaure'
+        'Rodrigo De Paul',
+        'Cristian “El Tigre” Basaure'
     ],
     "premio_gustavo_quinteros": [
         'Juvenal Olmos',
@@ -66,27 +65,27 @@ players = {
         'Aldo Schiappacasse'
     ],
     "premio_condorito": [
-        'El NO Check in del pasaje de Peluca Falcón a Iquique',
-        'El olvido de las camisetas de Audax en el Salvador',
+        'El NO Checkin del pasaje del Peluca Falcón a Iquique',
+        'El olvido de las camisetas de Audax en El Salvador',
         'La mala inscripción de Fabián Carmona en Coquimbo',
         'Los conciertos en el Estadio Monumental previo a partido clave de Colo Colo'
     ],
     "premio_aldo_max": [
-        'Vidal a Colo Colo, el retorno del REY',
-        'Búsqueda Entrenador de la Selección',
-        'Final del Campeonato 2023',
-        'La salida de la sub 23 de Morales por exceso de peso'
+        '“El retorno del Rey” por la vuelta de Vidal a Colo Colo',
+        '“En busca de la felicidad” y el entrenador de la Roja',
+        '“Game of Thrones” a la definición del campeonato 2023',
+        '“21 gramos” por la salida de la sub23 de Morales por exceso de peso'
     ],
     "premio_pedro_pascal": [
-        'Maxi Falcón patea el pasto ante Coquimbo y simula falta',
-        'Manuel Vicuña ante Audax',
-        'BUSCAR',
-        'Toby “En casados con Hijo”'
+        'Maxi Falcón y la falta que le hace el',
+        'Manuel Vicuña y el “cariñito” de Michael Fuentes',
+        'Ismael Sosa y su fragilidad ante Branco Ampuero',
+        'Toby Vega “En casados con Hijo”'
     ],
     "premio_flashdance": [
-        'Baile de César Peréz',
+        'César Pérez y su danza del gol',
         "Los bailes de O’Higgins a Colo Colo y la U",
-        'Baile Mono Sánchez (COQSER Copa Chile penales)',
+        'El Mono Sánchez a lo Dibu Martínez',
         'Vero Bianchi y Juvenal Olmos en la Teletón'
     ],
     "premio_mauricio_pellegrino": [
@@ -99,7 +98,6 @@ players = {
         'Lionel Messi',
         'Erling Haaland',
         'Kylian Mbappé',
-        'el Oso'
-    ],
-
+        'El Oso'
+    ]
 }

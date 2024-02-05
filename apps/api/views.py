@@ -30,16 +30,16 @@ class VoteView(views.APIView):
             captcha_token = data['token']
 
         # Validate Captcha Response
-        if self.captcha_check(request, captcha_token):
-            votes = []
-            for vote in votes_in:
-                player = Player.objects.get(id=vote)
-                v = Vote(
-                    form=form,
-                    player=player
-                )
-                votes.append(v)
-            Vote.objects.bulk_create(votes)
+        #if self.captcha_check(request, captcha_token):
+        votes = []
+        for vote in votes_in:
+            player = Player.objects.get(id=vote)
+            v = Vote(
+                form=form,
+                player=player
+            )
+            votes.append(v)
+        Vote.objects.bulk_create(votes)
 
         return Response(status=status.HTTP_200_OK)
 
